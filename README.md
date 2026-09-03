@@ -6,17 +6,17 @@
 ## Capturas de Tela / Imagens
 *Substitua os caminhos abaixo pelas imagens exportadas das suas 3 telas do protótipo:*
 
-![Tela 1 - Início](fotos/imagem_tela_1.png)
 > **Tela 1:** Home
+![Tela 1 - Início](fotos/imagem_tela_1.png)
 
-![Tela 2 - Sobre Mim](fotos/imagem_tela_2.png)
 > **Tela 2:** Sobre Mim
+![Tela 2 - Sobre Mim](fotos/imagem_tela_2.png)
 
-![Tela 3 - Projetos](fotos/imagem_tela_3.png)
 > **Tela 3:** Projetos
+![Tela 3 - Projetos](fotos/imagem_tela_3.png)
 
-![Tela 4 - Contato](fotos/imagem_tela_4.png)
 > **Tela 4:** Contato)
+![Tela 4 - Contato](fotos/imagem_tela_4.png)
 
 ## Ferramentas Utilizadas
 * **Figma**
