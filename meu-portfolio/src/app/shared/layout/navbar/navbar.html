@@ -1,0 +1,17 @@
+<nav>
+  <a
+    routerLink="/"
+    routerLinkActive="ativo"
+    [routerLinkActiveOptions]="{ exact: true }"
+    Início
+  ></a>
+
+  <a routerLink="/home" routerLinkActive="ativo">HOME</a>
+  <a routerLink="/sobremim" routerLinkActive="ativo">SOBRE MIM</a>
+  <a routerLink="/projetos" routerLinkActive="ativo">PROJETOS</a>
+  <a routerLink="/contato" routerLinkActive="ativo">Fale Comigo</a>
+</nav>
+
+<hr>
+
+<router-outlet></router-outlet>
