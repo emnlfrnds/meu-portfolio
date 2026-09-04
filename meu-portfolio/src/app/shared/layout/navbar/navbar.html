@@ -1,17 +1,14 @@
-<nav>
-  <a
-    routerLink="/"
-    routerLinkActive="ativo"
-    [routerLinkActiveOptions]="{ exact: true }"
-    Início
-  ></a>
+<nav class="navbar">
+  <div class="nav-links">
+    <a
+      routerLink="/"
+      routerLinkActive="ativo"
+      [routerLinkActiveOptions]="{ exact: true }"
+    ></a>
 
-  <a routerLink="/home" routerLinkActive="ativo">HOME</a>
-  <a routerLink="/sobremim" routerLinkActive="ativo">SOBRE MIM</a>
-  <a routerLink="/projetos" routerLinkActive="ativo">PROJETOS</a>
-  <a routerLink="/contato" routerLinkActive="ativo">Fale Comigo</a>
+    <a routerLink="/home" routerLinkActive="ativo">HOME</a>
+    <a routerLink="/sobremim" routerLinkActive="ativo">SOBRE MIM</a>
+    <a routerLink="/projetos" routerLinkActive="ativo">PROJETOS (2)</a>
+  </div>
+  <button class="btn-contact" routerLink="/contato" routerLinkActive="ativo">Fale Comigo <span class="icon">🔗</span></button>
 </nav>
-
-<hr>
-
-<router-outlet></router-outlet>
